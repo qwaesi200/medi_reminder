@@ -1,0 +1,28 @@
+name: medicine_reminder
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^5.0.0+4
+  sqflite: ^2.0.0
+  path_provider: ^2.0.15
+  shared_preferences: ^2.0.7
+  cupertino_icons: ^1.0.2
+  animated_text_kit: ^4.2.1
+  intl: ^0.17.0
+  win32: ^5.3.1  # Check for the latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
